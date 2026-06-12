@@ -1,5 +1,3 @@
-donne moi le reste des correction d'image pour celles que j'ai pas centrée : # Cahier de laboratoire — Campagne de soudage par induction semi-statique
-
 **Projet** : Mitigation du fiber flow / squeeze-out en soudage par induction semi-statique de laminés CF-PEKK
 **Configuration** : Pression de consolidation transmise par le concentrateur de flux via céramique d'espacement
 **Auteur** : Maxence Dubois
