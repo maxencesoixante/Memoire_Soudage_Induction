@@ -92,7 +92,9 @@ Céramique (matériau : ?????)
 | Température max atteinte (interface) | 398 °C                     |
 | Refroidissement | Naturel (sous pression)
 
-![courbe_250A_serieA_S2.png](images/courbe_250A_serieA_S2.png)
+<p align="center">
+  <img src="images/courbe_250A_serieA_S2.png" width="60%">
+</p>
 `[INSÉRER PHOTOS MACRO AVANT/APRÈS DE L'ÉCHANTILLON A-1]`
 
 **Observations qualitatives** :
