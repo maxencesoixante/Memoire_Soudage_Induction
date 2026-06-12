@@ -70,7 +70,7 @@ Céramique (matériau : ?????)
 
 | Paramètre                                     | Valeur                                              |
 |-----------------------------------------------|-----------------------------------------------------|
-| Générateur (marque / modèle)                  | Ambrell / ???                                       |
+| Générateur (marque / modèle)                  | Ambrell / EASYHEAT 4.2 kW                                       |
 | Fréquence                                     | Varie selon l'ampérage                              |
 | Distance bobine–laminé (distance de couplage) | 2 mm (assurée par céramique d'espacement)           |
 | Instrumentation température                   | 5 thermocouples de type K (dans le futur des types E) |
@@ -98,7 +98,7 @@ Céramique (matériau : ?????)
 **Observations qualitatives** :
 Traces de ma céramique qui a collé à la paroie du laminé (Twill).Squeeze-out latéral de matrice observé sur les bords du joint : la matrice fondue du laminé supérieur, sous l'effet combiné de la chute de viscosité (chauffe maximale dans le twill) et de la pression non confinée, est expulsée latéralement. Le fluage de la matrice entraîne un déplacement de fibres (fiber flow) et une distorsion des plis du tissu twill (écrasement local, perte d'épaisseur).
 
-- Étendue du squeeze-out (côté 1 / côté 2) : ______ / ______ mm
+- Étendue du squeeze-out (côté 1 / côté 2) : 1,5 / 1,7 mm
 - Localisation : Les squeeze-out sont situés aux mêmes emplacements où j'ai posé mon concentrateur de flux lors des cycles de chauffe. 
 - Autres observations : Chaque thermocouples passe au dessus de la température de melting. Et même certains passe deux fois la température de transition vitreuse. 
 
@@ -221,9 +221,9 @@ graph TD
 
 **Métriques baseline mesurées** :
 
-| Métrique | A-1 | A-2 | A-3 |
-|---|---|---|---|
-| Largeur du bourrelet de squeeze-out (mm) | ______ | ______ | ______ |
+| Métrique | A-1    | A-2    | A-3    |
+|---|--------|--------|--------|
+| Largeur du bourrelet de squeeze-out (mm) | 2,2 mm | 1,6 mm | 2,3 mm |
 | Épaisseur résiduelle du pli twill (µm) | ______ | ______ | ______ |
 | Perte d'épaisseur locale du joint (%) | ______ | ______ | ______ |
 | Angle de waviness max (°) | ______ | ______ | ______ |
