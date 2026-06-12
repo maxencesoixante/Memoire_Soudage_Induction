@@ -64,8 +64,9 @@ Céramique (matériau : ?????)
 <p align="center">
   <img src="images/photo_montage_zoom_coil_lamines.jpg" width="40%">
 </p>
-
-![schema_montage_cote.png](images/schema_montage_cote.png)
+<p align="center">
+  <img src="images/schema_montage_cote.png" width="60%">
+</p>
 
 ### 1.2.3 Paramètres du générateur d'induction
 
