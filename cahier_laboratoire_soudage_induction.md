@@ -62,7 +62,7 @@ Céramique (matériau : ?????)
 
 `[INSÉRER PHOTO DU MONTAGE DE SOUDAGE — vue d'ensemble]`
 <p align="center">
-  <img src="![photo_montage_zoom_coil_lamines.jpg](images/photo_montage_zoom_coil_lamines.jpg)" width="60%">
+  <img src="images/photo_montage_zoom_coil_lamines.jpg" width="60%">
 </p>
 
 ![schema_montage_cote.png](images/schema_montage_cote.png)
