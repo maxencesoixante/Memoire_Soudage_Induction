@@ -114,7 +114,7 @@ Cependant j'ai attendu beaucoup trop longtemps entre chaque passe du coil pour c
 | Pression appliquée | 50 N ?     |
 | Température max atteinte (interface) | 424°C °C   |
 
-`[INSÉRER COURBE DE CYCLE DE SOUDAGE — essai A-2]`
+![courbe_250A_serieA.png](images/courbe_250A_serieA.png)
 `[INSÉRER PHOTOS MACRO AVANT/APRÈS DE L'ÉCHANTILLON A-2]`
 
 **Observations qualitatives** : Reproduction du défaut observé en A-1 (squeeze-out + distorsion du twill). Juste une trace de ma céramique qui a collée à la paroie du laminé (Twill).
@@ -135,7 +135,7 @@ Cependant j'ai attendu beaucoup trop longtemps entre chaque passe du coil pour c
 | Pression appliquée | 70 N       |
 | Température max atteinte (interface) | 400 °C     |
 
-![Échantillon A-3 (Courbes)](/Users/maxencedubois/PycharmProjects/Memoire_Soudage_InductionV2/images/courbe_200A_serieA.png)
+![courbe_200A_serieA.png](images/courbe_200A_serieA.png)
 `[INSÉRER PHOTOS MACRO AVANT/APRÈS DE L'ÉCHANTILLON A-3]`
 
 **Observations qualitatives** : Défauts de fiber flow présents également à courant réduit. Mais aucun signe d'effets de bords. Juste une trace de ma céramique qui a collée à la paroie du laminé (Twill).
