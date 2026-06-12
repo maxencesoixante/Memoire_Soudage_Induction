@@ -61,8 +61,12 @@ Céramique (matériau : ?????)
 **Aucun confinement latéral** des bords du laminé dans cette série.
 
 `[INSÉRER PHOTO DU MONTAGE DE SOUDAGE — vue d'ensemble]`
-![photo_montage_zoom_coil_lamines.jpg](images/photo_montage_zoom_coil_lamines.jpg)
+<p align="center">
+  <img src="![photo_montage_zoom_coil_lamines.jpg](images/photo_montage_zoom_coil_lamines.jpg)" width="60%">
+</p>
+
 ![schema_montage_cote.png](images/schema_montage_cote.png)
+
 ### 1.2.3 Paramètres du générateur d'induction
 
 | Paramètre                                     | Valeur                                                |
