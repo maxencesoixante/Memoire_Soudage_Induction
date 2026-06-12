@@ -194,28 +194,28 @@ Cependant j'ai attendu beaucoup trop longtemps entre chaque passe du coil pour c
 
 ### 2.1.1 Objectif
 
-Déterminer si une pression réduite, appliquée de façon constante pendant toute la chauffe **et** maintenue pendant le refroidissement, suffit à réduire le squeeze-out sans confinement latéral — et quantifier l'effet résiduel.
+Déterminer si une pression réduite, appliquée de façon constante pendant toute la chauffe **et** maintenue pendant le refroidissement, suffit à réduire le squeeze-out sans confinement latéral et quantifier l'effet résiduel.
 
 ### 2.1.2 Paramètres fixés
 
-| Paramètre | Valeur | Justification |
-|---|---|---|
-| Courant | ______ A (choisir UNE valeur de la série A, recommandé : 250 A, cas le plus sévère) | Comparabilité directe avec baseline |
-| Pression | ______ (réduite, à fixer avant B-1 et ne plus changer) | Variable d'étude |
-| Profil de pression | Constante, appliquée avant le début de chauffe, maintenue jusqu'à T < ______ °C (sous Tg du PEKK, ~160 °C) | Consolidation pendant solidification |
-| Durée de chauffe | Identique Série A : ______ s | Comparabilité |
-| Empilement / film / gap | Identiques Série A | Comparabilité |
-| Confinement latéral | **Aucun** | Isolement de la variable pression |
+| Paramètre | Valeur                                                                                                 | Justification |
+|---|--------------------------------------------------------------------------------------------------------|---|
+| Courant | 250 A                                                                                                  | Comparabilité directe avec baseline |
+| Pression | 25 N (réduite, à fixer avant B-1 et ne plus changer)                                                   | Variable d'étude |
+| Profil de pression | Constante, appliquée avant le début de chauffe, maintenue jusqu'à T < 120 °C (sous Tg du PEKK, 159 °C) | Consolidation pendant solidification |
+| Durée de chauffe | Identique Série A : 1200 s                                                                             | Comparabilité |
+| Empilement / film / gap | Identiques Série A                                                                                     | Comparabilité |
+| Confinement latéral | **Aucun**                                                                                              | Isolement de la variable pression |
 
 ### 2.1.3 Procédure étape par étape (par essai)
 
-1. **Préparation** : découper et ébavurer les laminés ; mesurer et consigner dimensions et masse de chaque laminé (`______ mm`, `______ g`). Photographier chaque laminé individuellement (voir standard photo §2.2.5).
-2. **Empilement** : positionner laminé inférieur / film PEKK 0,004 po / laminé supérieur (twill vers le haut). Vérifier l'alignement du recouvrement à ± 0,5 mm.
-3. **Mise en place** : positionner la céramique d'espacement, descendre le concentrateur. Vérifier le gap bobine–laminé : ______ mm (identique Série A).
-4. **Pré-charge** : appliquer la pression réduite cible ______ et la stabiliser. Consigner la lecture du manomètre / capteur : ______.
+1. **Préparation** : découper et ébavurer les laminés ; mesurer et consigner dimensions de chaque laminé (`120 x 40 x 3,36 mm`). Photographier chaque laminé individuellement (voir standard photo §2.2.5).
+2. **Empilement** : positionner laminé inférieur / film PEKK 0,004 po / laminé supérieur (twill vers l'interface de soudure). Vérifier l'alignement du recouvrement à ± 0,5 mm.
+3. **Mise en place** : positionner la céramique d'espacement, descendre le concentrateur. Vérifier le gap bobine–laminé (identique Série A).
+4. **Pré-charge** : appliquer la pression réduite cible 25 N et la stabiliser. Consigner la lecture du manomètre / capteur : ______.
 5. **Instrumentation** : vérifier les thermocouples (positions identiques à la Série A), lancer l'acquisition.
-6. **Chauffe** : lancer le cycle à ______ A pendant ______ s. Ne pas toucher à la pression pendant la chauffe.
-7. **Refroidissement sous pression** : maintenir la pression constante jusqu'à T_interface < ______ °C. Consigner la durée totale sous pression : ______ s.
+6. **Chauffe** : lancer le cycle à 250 A jusqu'à T = Tprocessing. Ne pas toucher à la pression pendant la chauffe.
+7. **Refroidissement sous pression** : maintenir la pression constante jusqu'à T_interface < 120 °C. Consigner la durée totale sous pression : ______ s.
 8. **Démontage** : relever la pression, remonter le concentrateur, extraire l'échantillon. Photographier immédiatement (standard §2.2.5).
 9. **Mesures post-essai** : grille de métriques §3 dans les 24 h.
 
