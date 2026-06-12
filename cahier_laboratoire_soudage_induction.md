@@ -92,7 +92,7 @@ Céramique (matériau : ?????)
 `[INSÉRER PHOTOS MACRO AVANT/APRÈS DE L'ÉCHANTILLON A-1]`
 
 **Observations qualitatives** :
-Squeeze-out latéral de matrice observé sur les bords du joint : la matrice fondue du laminé supérieur, sous l'effet combiné de la chute de viscosité (chauffe maximale dans le twill) et de la pression non confinée, est expulsée latéralement. Le fluage de la matrice entraîne un déplacement de fibres (fiber flow) et une distorsion des plis du tissu twill (écrasement local, perte d'épaisseur).
+Traces de ma céramique qui a collé à la paroie du laminé (Twill).Squeeze-out latéral de matrice observé sur les bords du joint : la matrice fondue du laminé supérieur, sous l'effet combiné de la chute de viscosité (chauffe maximale dans le twill) et de la pression non confinée, est expulsée latéralement. Le fluage de la matrice entraîne un déplacement de fibres (fiber flow) et une distorsion des plis du tissu twill (écrasement local, perte d'épaisseur).
 
 - Étendue du squeeze-out (côté 1 / côté 2) : ______ / ______ mm
 - Localisation : Les squeeze-out sont situés aux mêmes emplacements où j'ai posé mon concentrateur de flux lors des cycles de chauffe. 
@@ -117,7 +117,7 @@ Cependant j'ai attendu beaucoup trop longtemps entre chaque passe du coil pour c
 `[INSÉRER COURBE DE CYCLE DE SOUDAGE — essai A-2]`
 `[INSÉRER PHOTOS MACRO AVANT/APRÈS DE L'ÉCHANTILLON A-2]`
 
-**Observations qualitatives** : Reproduction du défaut observé en A-1 (squeeze-out + distorsion du twill). Détails : ______
+**Observations qualitatives** : Reproduction du défaut observé en A-1 (squeeze-out + distorsion du twill). Juste une trace de ma céramique qui a collée à la paroie du laminé (Twill).
 
 **Comparaison A-1 vs A-2 (répétabilité à 250 A)** : Point positif : On observe le même schéma de chauffe de thermocouple (mise à part TC3). 
 
@@ -135,12 +135,12 @@ Cependant j'ai attendu beaucoup trop longtemps entre chaque passe du coil pour c
 | Pression appliquée | 70 N       |
 | Température max atteinte (interface) | 400 °C     |
 
-`[INSÉRER COURBE DE CYCLE DE SOUDAGE — essai A-3]`
+![Échantillon A-3 (Courbes)](/Users/maxencedubois/PycharmProjects/Memoire_Soudage_InductionV2/images/courbe_200A_serieA.png)
 `[INSÉRER PHOTOS MACRO AVANT/APRÈS DE L'ÉCHANTILLON A-3]`
 
-**Observations qualitatives** : Défauts présents également à courant réduit. Sévérité relative vs 250 A : ______
+**Observations qualitatives** : Défauts de fiber flow présents également à courant réduit. Mais aucun signe d'effets de bords. Juste une trace de ma céramique qui a collée à la paroie du laminé (Twill).
 
-**Déviations et observations** : ______
+**Déviations et observations** : Chaque thermocouples passe au moins une fois par Tprocessing. Et certains thermocouples passe deux fois au dessus de Tg. 
 
 ---
 
