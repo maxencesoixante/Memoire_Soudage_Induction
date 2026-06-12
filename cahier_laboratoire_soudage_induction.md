@@ -163,7 +163,61 @@ Cependant j'ai attendu beaucoup trop longtemps entre chaque passe du coil pour c
 4. Les fibres du twill, non maintenues, sont entraînées avec la matrice → fiber flow + distorsion de plis.
 
 `[INSÉRER MICROGRAPHIES DES COUPES — A-1, A-2, A-3, plan de coupe et grossissement standardisés]`
-`[INSÉRER SCHÉMA DU MÉCANISME EN 3 ÉTAPES — avant / pendant / après]`
+### Schéma du mécanisme de Fiber Flow / Squeeze-out
+
+```mermaid
+graph TD
+    subgraph AVANT["ÉTAPE 1 — AVANT : Mise en chauffe"]
+        VER["Vérin hydraulique\nForce = 70 N"]
+        CFX["Concentrateur de flux + Bobine d'induction"]
+        CER["Céramique d'espacement — 2 mm\ngap bobine–laminé fixé"]
+        LSP["Laminé supérieur CF-PEKK\npli twill à l'interface de soudure\nMatrice PEKK SOLIDE — η >> 1 Pa·s"]
+        FPK["Film PEKK 0,004 po — SOLIDE"]
+        LIF["Laminé inférieur CF-PEKK"]
+        EC["Courants de Foucault\nconcentrés dans le twill CF conducteur"]
+
+        VER --> CFX --> CER --> LSP --> FPK --> LIF
+        CFX -. "Champ électromagnétique" .-> EC
+        EC -. "Chauffe préférentielle\ndu twill — T monte vers Tm" .-> LSP
+    end
+
+    LSP -->|"Chauffe progressive : T > Tg 159°C → T > Tm 337°C"| FUSION
+
+    subgraph PENDANT["ÉTAPE 2 — PENDANT : Chute de viscosité et fluage"]
+        FUSION["T interface ≈ 400°C\nsupérieure à T fusion PEKK 337°C"]
+        VISC["Viscosité η chute drastiquement\nMatrice PEKK à l'état fondu — liquide visqueux"]
+        CONTR["Pression P = 70 N maintenue constante\nBords latéraux du laminé LIBRES\nAucun confinement latéral"]
+
+        FUSION --> VISC --> CONTR
+    end
+
+    CONTR -->|"Matrice fondue soumise à P — sans barrière latérale"| EXPUL
+
+    subgraph APRES["ÉTAPE 3 — APRÈS : Squeeze-out et Fiber Flow"]
+        EXPUL["SQUEEZE-OUT\nExpulsion latérale de la matrice fondue\nvers les bords libres du laminé"]
+        FIBRE["FIBER FLOW\nFibres du twill entraînées avec la matrice\nDésorientation et déplacement hors-plan"]
+        DEGRA["DISTORSION DU PLI TWILL\nWaviness · Écrasement local\nPerte d'épaisseur du joint soudé"]
+
+        EXPUL --> FIBRE --> DEGRA
+    end
+
+    style AVANT fill:#EBF5FB,stroke:#2980B9,color:#1a1a1a
+    style PENDANT fill:#FEF9E7,stroke:#D4AC0D,color:#1a1a1a
+    style APRES fill:#FDEDEC,stroke:#C0392B,color:#1a1a1a
+    style VER fill:#AED6F1,stroke:#2980B9,color:#1a1a1a
+    style CFX fill:#AED6F1,stroke:#2980B9,color:#1a1a1a
+    style CER fill:#D6EAF8,stroke:#2980B9,color:#1a1a1a
+    style LSP fill:#D5F5E3,stroke:#27AE60,color:#1a1a1a
+    style FPK fill:#FDEBD0,stroke:#E67E22,color:#1a1a1a
+    style LIF fill:#D5F5E3,stroke:#27AE60,color:#1a1a1a
+    style EC fill:#F9E79F,stroke:#D4AC0D,color:#1a1a1a
+    style FUSION fill:#FAD7A0,stroke:#E67E22,color:#1a1a1a
+    style VISC fill:#FAD7A0,stroke:#E67E22,color:#1a1a1a
+    style CONTR fill:#FDEBD0,stroke:#E67E22,color:#1a1a1a
+    style EXPUL fill:#E74C3C,color:#ffffff,stroke:#C0392B
+    style FIBRE fill:#E74C3C,color:#ffffff,stroke:#C0392B
+    style DEGRA fill:#C0392B,color:#ffffff,stroke:#922B21
+```
 
 **Métriques baseline mesurées** :
 
