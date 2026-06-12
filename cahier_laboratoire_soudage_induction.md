@@ -4,7 +4,7 @@
 **Configuration** : Pression de consolidation transmise par le concentrateur de flux via céramique d'espacement
 **Auteur** : Maxence Dubois
 **Institution** : ÉTS — Montréal
-**Période de la campagne** : 11 / 06 / 2026 → ____ / ____ / 2026
+**Période de la campagne** : 11 / 06 / 2026 → ?? / ?? / 2027
 **Version du document** : 0.1 
 
 ---
@@ -29,14 +29,14 @@ Caractériser le défaut de fiber flow / squeeze-out dans la configuration de r�
 
 ### 1.2.1 Empilement et matériaux
 
-| Élément | Spécification                                                                                                                                      |
-|---|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Laminé supérieur | CF-PEKK, empilement [45/-45/0/90]₃ₛ + **pli twill en surface supérieure** (couche suscepteur, maximisation de la chauffe par courants de Foucault) |
-| Laminé inférieur | CF-PEKK, empilement [45/-45/0/90]₃ₛ                                                                                                                |
-| Interface de soudage | Film PEKK néat, épaisseur 0,004 po (~0,10 mm)                                                                                                      |
-| Dimensions laminés | 120 × 40 × 3,36 mm (à consigner)                                                                                                                   |
-| Recouvrement (overlap) | 120 x 40 mm                                                                                                                                        |
-| Lot matière / traçabilité | ????                                                                                                                                               |
+| Élément | Spécification                                                                                                                                                                             |
+|---|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Laminé supérieur | CF-PEKK, empilement [45/-45/0/90]₃ₛ + **pli twill sur la surface supérieure mais positionné à l'interface de soudure** (couche suscepteur, maximisation de la chauffe par courants de Foucault) |
+| Laminé inférieur | CF-PEKK, empilement [45/-45/0/90]₃ₛ                                                                                                                                                       |
+| Interface de soudage | Film PEKK, épaisseur 0,004 po (~0,10 mm)                                                                                                                                                  |
+| Dimensions laminés | 120 × 40 × 3,36 mm                                                                                                                                                           |
+| Recouvrement (overlap) | 120 x 40 mm                                                                                                                                                                               |
+| Lot matière / traçabilité | ????                                                                                                                                                                                      |
 
 ### 1.2.2 Chaîne de transmission de la pression
 
@@ -61,8 +61,8 @@ Céramique (matériau : ?????)
 **Aucun confinement latéral** des bords du laminé dans cette série.
 
 `[INSÉRER PHOTO DU MONTAGE DE SOUDAGE — vue d'ensemble]`
-`[INSÉRER PHOTO DU MONTAGE DE SOUDAGE — gros plan concentrateur / céramique / laminé]`
-`[INSÉRER SCHÉMA COTÉ DU MONTAGE]`
+![photo_montage_zoom_coil_laminés.jpg](images/photo_montage_zoom_coil_lamine%CC%81s.jpg)
+![schéma_montage_coté.png](images/sche%CC%81ma_montage_cote%CC%81.png)
 
 ### 1.2.3 Paramètres du générateur d'induction
 
@@ -146,7 +146,7 @@ Cependant j'ai attendu beaucoup trop longtemps entre chaque passe du coil pour c
 
 ## 1.4 Synthèse Série A
 
-**Constat central** : le fiber flow / squeeze-out est **systématique** (3/3 essais) dans la configuration sans confinement, aux deux niveaux de courant testés. Le défaut se concentre dans le laminé supérieur, au droit de la zone de chauffe maximale (twill), là où la pression est appliquée.
+**Constat central** : Le fiber flow / squeeze-out est **systématique** (3/3 essais) dans la configuration sans confinement, aux deux niveaux de courant testés. Le défaut se concentre dans le laminé supérieur, aux endroits de la zone de chauffe du concentrateur de flux, là où la pression est appliquée.
 
 **Mécanisme proposé (hypothèse de travail)** :
 1. Le twill supérieur concentre les courants de Foucault → chauffe maximale en surface supérieure.
@@ -157,7 +157,7 @@ Cependant j'ai attendu beaucoup trop longtemps entre chaque passe du coil pour c
 `[INSÉRER MICROGRAPHIES DES COUPES — A-1, A-2, A-3, plan de coupe et grossissement standardisés]`
 `[INSÉRER SCHÉMA DU MÉCANISME EN 3 ÉTAPES — avant / pendant / après]`
 
-**Métriques baseline mesurées** (voir grille §3 ; à remplir) :
+**Métriques baseline mesurées** :
 
 | Métrique | A-1 | A-2 | A-3 |
 |---|---|---|---|
